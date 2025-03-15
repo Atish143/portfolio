@@ -1,11 +1,18 @@
-"use client"; // Ensures hooks work properly
-
+import { useEffect, useState } from "react";
 import styles from "../../styles/About.module.css";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 const About = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 500);
+    handleResize(); // Check on initial render
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <motion.section
       id="about"
@@ -15,18 +22,20 @@ const About = () => {
       transition={{ duration: 0.8 }}
     >
       <div className={styles.container}>
-        {/* Left Side - Image */}
-        <div className={styles.left}>
-          <div className={styles.imageWrapper}>
-            <Image
-              src="/atish3.jpeg"
-              alt="Your Profile"
-              width={400}
-              height={400}
-              className={styles.profileImage}
-            />
+        {/* Hide Image on Mobile */}
+        {!isMobile && (
+          <div className={styles.left}>
+            <div className={styles.imageWrapper}>
+              <img
+                src="/atish3.jpeg"
+                alt="Your Profile"
+                width={400}
+                height={400}
+                className={styles.profileImage}
+              />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Right Side - About Details */}
         <div className={styles.right}>

@@ -34,6 +34,18 @@
    though Next.js's Image component renders an img within a div */
 .image {
   border-radius: 2%;
-  object-fit:none;
+  object-fit:cover;
   margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 30px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+  }
 }
