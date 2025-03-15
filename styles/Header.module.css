@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    height: 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .scrolled {
+    background: rgb(0, 0, 0);
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Local classes for navigation */
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    /* Optionally add styles for each list item */
+  }
+
+  .toggleItem {
+    /* Optionally add styles for each list item */
+    margin-top: -10px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1rem;
+  }
+  
+  .navLink:hover {
+    color: #ffcc00;
+  }
+  

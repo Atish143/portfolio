@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+  /* background: #f5f5f5; */
+  /* background: black;  */
+}
+
+.text {
+  flex: 1;
+}
+
+.text h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.text h1 span {
+  color: #0070f3;
+}
+
+.text p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.imageWrapper {
+  /* margin-left: -10rem; */
+}
+
+/* You can still apply styles to the image if needed,
+   though Next.js's Image component renders an img within a div */
+.image {
+  border-radius: 2%;
+  object-fit:none;
+  margin-top: 5%;
+}
