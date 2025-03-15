@@ -61,7 +61,7 @@ const Hero = () => {
       <div className={styles.imageWrapper}>
         <AnimatePresence mode="wait">
           <motion.div key={index} {...fadeInOutAnimation}>
-            <Image 
+            <img 
               src={variants[index].image}
               alt="Profile"
               width={500}
