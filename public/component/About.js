@@ -2,7 +2,7 @@
 
 import styles from "../../styles/About.module.css";
 import { motion } from "framer-motion";
-// import Image from "next/image";
+import Image from "next/image";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
         {/* Left Side - Image */}
         <div className={styles.left}>
           <div className={styles.imageWrapper}>
-            <img
+            <Image
               src="/atish3.jpeg"
               alt="Your Profile"
               width={400}
