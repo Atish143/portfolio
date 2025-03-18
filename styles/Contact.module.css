@@ -72,18 +72,34 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact {
-    width:228%;
+    width:149vw;
     text-align: center;
     padding: 120px;
-    background: linear-gradient(135deg, #f4f4f4, #d0d0d0);
+    background: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -5rem;
   }
   .contactDetails {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+  }
+  .contactItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: lightgrey;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222; /* Dark gray */
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    white-space: nowrap;
   }
   
 }

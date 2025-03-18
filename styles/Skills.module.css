@@ -97,7 +97,7 @@
 }
 
 .toolItem:hover {
-  background: #e0e0e0;
+  background:lightsteelblue;
   transform: scale(1.05);
 }
 
@@ -115,10 +115,35 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .skills {
-    width: 240%;
-    /* padding: 100px; */
+    width:179vw;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: #0d0d0d;
+    /* border-radius: 10px; */
+    margin-left: 4rem;
   }
-
+  .toolItem {
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0d0d0d;
+    transition: all 0.3s ease-in-out;
+    background-color: #e0e0e0;
+  }
+/* Headings */
+.skills h2 {
+  color: #0d0d0d;
+  margin-top: 2rem;
+  font-size: 28;
+}
 }
 
 

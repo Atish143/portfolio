@@ -1,6 +1,6 @@
 .work {
   padding: 50px;
-  background: linear-gradient(135deg, #f4f4f4, #d0d0d0);
+  background: white;
   text-align: center;
 }
 
@@ -79,18 +79,29 @@
 @media (max-width: 768px) {
 
   .work {
-    padding: 50px;
-    background: linear-gradient(135deg, #f4f4f4, #d0d0d0);
-    text-align: center;
-    width: 273%;
+    width: 149vw;
+    background-color: white;
+    margin-left: 4rem;
+    margin-top: -5rem;
   }
 
   .workContainer {
     flex-wrap: wrap; /* Allows wrapping when screen is small */
     justify-content: center;
+    background-color: white;
+  
   }
 
-  .experience {
-    max-width: 54%;
-  }
+  /* Individual Experience Box */
+.experience {
+  max-width:480px;
+  margin: 20px;
+  background-color: #ece7e7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-left: 6px solid #000000;
+}
 }
