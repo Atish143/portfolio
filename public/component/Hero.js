@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "../../styles/Hero.module.css";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
+
 
 // Define text and image variants together
 const variants = [
@@ -38,6 +38,7 @@ const Hero = () => {
   }, []);
 
   return (
+
     <motion.section
       id="hero"
       className={styles.hero}
@@ -72,6 +73,8 @@ const Hero = () => {
         </AnimatePresence>
       </div>
     </motion.section>
+   
+
   );
 };
 

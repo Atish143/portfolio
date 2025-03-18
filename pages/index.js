@@ -12,15 +12,29 @@ import Skills from "../public/component/Skills"
 
 export default function Home() {
   return (
-    <div  style={{}}>
+    <div style={{width:'100%' , height:'100%'}}>
       <Header />
+      <div style={{width:'100%' , height:'100%'}}>
       <Hero />
+      </div>
+      <div style={{width:'100%' , height:'100%'}}>
       <About />
+      </div>
+      <div style={{width:'100%' , height:'100%'}}>
       <WorkExperience />
+      </div>
+      <div style={{width:'100%' , height:'100%'}}>
       <Education />
+      </div>
+      <div style={{width:'100%' , height:'100%'}}>
       <Skills />
+      </div>
+      <div style={{width:'100%' , height:'100%'}}>
       <Projects />
+      </div>
+      <div style={{width:'100%' , height:'100%'}}>
       <Contact />
+      </div>
     </div>
   );
 }

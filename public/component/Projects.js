@@ -9,49 +9,49 @@ const projects = [
     title: "Bandhan Mutual Funds (React Native)",
     description:
       "Developed key features for a mutual funds app, focusing on user engagement, authentication, and payment processing.",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.bandhanmf.inv",
   },
   {
     id: 2,
     title: "Nippon Mutual Funds (React Native)",
     description:
       "Focused on debugging and enhancing the app based on client requirements, ensuring a seamless user experience.",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.godbtech.reliancemf&hl=en_IN",
   },
   {
     id: 3,
     title: "LastingAsset (React Native)",
     description:
       "Developed advanced security features and deep linking for a financial security app, enhancing fraud detection.",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.lastingasset.verify",
   },
   {
     id: 4,
     title: "Online CampusLife EdTech Project (React Native)",
     description:
       "Led the development of an EdTech platform, managing academic hierarchies and curriculum structures.",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.onlinecampuslife",
   },
   {
     id: 5,
     title: "Hourly Rooms Mobile App (React Native)",
     description:
       "Enhanced UI and integrated critical features for a hotel booking app, improving booking experiences.",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=com.hourlyrooms&pli=1",
   },
   {
     id: 6,
     title: "Hourly Rooms Vendor Management System (React Native)",
     description:
       "Developed a vendor-focused mobile app for inventory management, enabling real-time updates.",
-    link: "#",
+    link: "https://play.google.com/store/apps/details?id=hourlyrooms.extranet",
   },
   {
     id: 7,
     title: "Hourly Rooms Website (Next.js)",
     description:
       "Developed a high-performance SPA for hotel bookings using Next.js, optimizing API communication and global state management.",
-    link: "#",
+    link: "https://hourlyrooms.co.in/",
   },
   {
     id: 8,
@@ -62,17 +62,17 @@ const projects = [
   },
   {
     id: 9,
-    title: "Hourly Rooms Website (Mobile View) (Next.js)",
+    title: "Hourly Rooms Vendor Management System (Next.js)",
     description:
       "Developed a fully responsive mobile version of the Hourly Rooms website using Next.js, optimizing performance and UI.",
-    link: "#",
+    link: "https://extranet.hourlyrooms.co.in/",
   },
   {
     id: 10,
     title: "Fantasy Cricket Team Maker System (React.js)",
     description:
       "Developed a fantasy cricket app using React.js with advanced player selection logic and optimized state management.",
-    link: "#",
+    link: "https://heroic-twilight-57785e.netlify.app/",
   },
 ];
 

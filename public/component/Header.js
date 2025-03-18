@@ -41,12 +41,12 @@ const Header = () => {
           <li className={styles.navItem}>
             <a className={styles.navLink} href="#projects">Projects</a>
           </li>
-          <li className={styles.navItem}>
+          <li className={styles.navItemlast}>
             <a className={styles.navLink} href="#contact">Contact</a>
           </li>
         
           <li className={styles.toggleItem}>
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
           </li>
         </ul>
       </nav>

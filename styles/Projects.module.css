@@ -38,3 +38,12 @@
     text-decoration: underline;
   }
   
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .projects {
+    width: 273%;
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(135deg, #f4f4f4, #d0d0d0);
+  }
+}

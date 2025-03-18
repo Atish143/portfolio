@@ -15,7 +15,7 @@ const Contact = () => {
       <div className={styles.contactDetails}>
         <div className={styles.contactItem}>
           <div className={styles.contactItemIcon}><FaMapMarkerAlt /></div>
-          <span> Mumbai, Maharashtra, India</span>
+          <a href="https://maps.app.goo.gl/Bs79Wwe3a8pFmB6u7" target="_blank" rel="noopener noreferrer"> Mumbai, Maharashtra, India</a>
         </div>
         <div className={styles.contactItem}>
           <div className={styles.contactItemIcon}><FaPhone /></div>
@@ -23,7 +23,9 @@ const Contact = () => {
         </div>
         <div className={styles.contactItem}>
           <div className={styles.contactItemIcon}><FaEnvelope /></div>
-          <span> atishdussa15@gmail.com</span>
+          <a href="mailto:atishdussa15@gmail.com" className={styles.contactLink}>
+    atishdussa15@gmail.com
+  </a>
         </div>
         <div className={styles.contactItem}>
           <div className={styles.contactItemIcon}><FaLinkedin /></div>

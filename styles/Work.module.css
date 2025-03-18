@@ -75,17 +75,6 @@
   font-size: 1.2rem;
 }
 
-/* Responsive Fixes */
-@media (max-width: 1024px) {
-  .workContainer {
-    flex-wrap: wrap; /* Allows wrapping when screen is small */
-    justify-content: center;
-  }
-
-  .experience {
-    max-width: 100%;
-  }
-}
 
 @media (max-width: 768px) {
 
@@ -93,7 +82,7 @@
     padding: 50px;
     background: linear-gradient(135deg, #f4f4f4, #d0d0d0);
     text-align: center;
-    width: 50rem;
+    width: 273%;
   }
 
   .workContainer {

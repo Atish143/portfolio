@@ -32,8 +32,13 @@
     padding: 0;
   }
   
+  .navItemlast {
+    /* Optionally add styles for each list item */
+    margin-right: 2rem;
+  }
   .navItem {
     /* Optionally add styles for each list item */
+   
   }
 
   .toggleItem {
