@@ -10,6 +10,7 @@
 
 .text {
   flex: 1;
+ 
 }
 
 .text h1 {
@@ -47,6 +48,7 @@
     justify-content: space-between;
     /* text-align: left; */
     background: white;
+    height:730px
   } 
   .text h1 {
     margin-top: 2rem;

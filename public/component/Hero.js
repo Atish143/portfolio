@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const variants = [
   {
     title: "Hello, I'm",
-    name: "Atish Dussa",
+    name: "Atish Dussa            ",
     subtitle: "A passionate React Developer",
     image: "/atish1.jpg",
   },

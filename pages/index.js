@@ -8,7 +8,8 @@ import WorkExperience from "../public/component/WorkExperience";
 import Education from "../public/component/Education";
 import Projects from "../public/component/Projects";
 import Contact from "../public/component/Contact";
-import Skills from "../public/component/Skills"
+import Skills from "../public/component/Skills";
+import Download from "../public/component/Download";
 
 export default function Home() {
   return (
@@ -35,6 +36,10 @@ export default function Home() {
       <div style={{width:'100%' , height:'100%'}}>
       <Contact />
       </div>
+      <div style={{width:'100%' , height:'100%'}}>
+      <Download />
+      </div>
+      
     </div>
   );
 }
